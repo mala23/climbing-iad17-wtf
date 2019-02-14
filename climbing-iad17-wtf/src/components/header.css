@@ -5,12 +5,15 @@
 }
 
 .header__intro {
-  max-width: 960px;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px 1.0875rem 0;
   display: flex;
 }
 
 h1 {
   color: hsl(0% 0% 0);
+  max-width: 960px;
 }
 
 .header__image {
