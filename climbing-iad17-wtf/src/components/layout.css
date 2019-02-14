@@ -4,7 +4,8 @@ html {
   font-family: aller, sans-serif;
   font-style: normal;
   font-weight: 300;
-  background-color: hsl(216% 66% 20);
+  background-color: hsl(216 66% 20%);
+  color: hsl(0 0% 100%);
 }
 body {
   margin: 0;
@@ -22,7 +23,7 @@ nav,
 section,
 summary {
   display: block;
-  background-color: hsl(216% 66% 20);
+  background-color: hsl(216 66% 20%);
 }
 audio,
 canvas,
@@ -187,7 +188,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  letter-spacing: .3px;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -201,7 +202,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -233,7 +233,7 @@ h1 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3.25rem;
   line-height: 1.1;
 }
 h2 {
@@ -320,6 +320,11 @@ hgroup {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  font-weight: 300;
 }
 ul {
   margin-left: 1.45rem;
