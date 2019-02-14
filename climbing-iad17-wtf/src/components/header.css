@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__intro {
+  max-width: 960px;
+  display: flex;
+}
+
+h1 {
+  color: hsl(0% 0% 0);
+}
+
+.header__image {
+  background-image:
+    url('../images/header.png');
+  background-color: hsl(216% 66% 20);
+  background-size: cover;
+  width: 100vw;
+  height: 64rem;
+  display: block;
+  margin: 0 0 4rem 0;
+}

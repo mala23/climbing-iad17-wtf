@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `How Sport climbing works`,
+    title: `Grabbing Gold by the Finger Tips`,
     description: `A super swift visual, data-driven essay explaining how sport climbing at the olympics works.`,
     author: `@iad17`,
   },
