@@ -1,0 +1,19 @@
+.footer__hearticon {
+  margin: 0 .5rem;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+  animation: pulsate .42s ease 0s infinite alternate;
+}
+
+.footer__hearticon:hover {
+  fill: red;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `How Sport climbing works`,
+    title: `How Sport Climbing Works`,
     description: `A super swift visual, data-driven essay explaining how sport climbing at the olympics works.`,
     author: `@iad17`,
   },
@@ -13,18 +13,26 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        typekit: {
+          id: 'rag0dww'
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `climbing-iad17-wtf`,
         short_name: `climbing`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background-color: `hsl(216% 66% 20)`;
+        theme_color: `hsl(0% 0% 24)`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
