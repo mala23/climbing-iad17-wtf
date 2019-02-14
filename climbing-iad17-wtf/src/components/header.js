@@ -5,22 +5,22 @@ import React from "react"
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
-    <header className="header">
-        <img className="header__image"/>
-        <section className="header__intro">
-        <h1 style={{ margin: 0 }}>
-            {siteTitle}
-        </h1>
-        </section>
-    </header>
+  <header className="header">
+      <img className="header__image"/>
+      <section className="header__intro">
+      <h1 style={{ margin: 0 }}>
+          {siteTitle}
+      </h1>
+      </section>
+  </header>
 )
 
 Header.propTypes = {
-    siteTitle: PropTypes.string,
+  siteTitle: PropTypes.string,
 }
 
 Header.defaultProps = {
-    siteTitle: ``,
+  siteTitle: ``,
 }
 
 export default Header
