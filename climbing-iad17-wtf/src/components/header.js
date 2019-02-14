@@ -6,12 +6,10 @@ import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-      <img className="header__image"/>
-      <section className="header__intro">
-      <h1 style={{ margin: 0 }}>
-          {siteTitle}
-      </h1>
-      </section>
+    <h1 className="header__title"> 
+        {siteTitle}
+    </h1>
+    <div className="header__gradient"></div>
   </header>
 )
 

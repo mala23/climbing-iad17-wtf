@@ -2,27 +2,27 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.header__intro {
-  width: 960px;
-  margin: 0 auto;
-  padding: 0px 1.0875rem 0;
-  display: flex;
+  background-image:
+    url('../images/header.png');
+  background-size: cover;
+  height: 80vh;
 }
 
 h1 {
-  color: hsl(0% 0% 0);
-  max-width: 960px;
+  width: 100%;
+  text-align: center;
 }
 
-.header__image {
+.header__title {
+  position: absolute;
+  top: 40vh;
+}
+
+.header__gradient {
   background-image:
-    url('../images/header.png');
-  background-color: hsl(216% 66% 20);
-  background-size: cover;
-  width: 100vw;
-  height: 64rem;
-  display: block;
-  margin: 0 0 4rem 0;
+    url('../images/gradient.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
 }
