@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `How Sport climbing works`,
+    title: `Grabbing Gold by the Finger Tips`,
     description: `A super swift visual, data-driven essay explaining how sport climbing at the olympics works.`,
     author: `@iad17`,
   },
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
