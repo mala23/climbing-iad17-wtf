@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import Intro from "../components/intro"
 import Image from "../components/image"
+import HatefulSix from "../components/hatefulsix"
 import SEO from "../components/seo"
 import Disciplines from "../components/disciplines"
 
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <p>Speed, Boulder and Lead: these are the three disciplines constituting the «Olympic Combined» and are affording gold. Partaking in the qualifications are all athletes (20 women, 20 men). The six best athletes are qualifying for the finals.</p>
     <Intro />
   <Disciplines />
+    <HatefulSix />
   </Layout>
 )
 

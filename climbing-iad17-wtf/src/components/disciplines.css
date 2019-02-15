@@ -5,21 +5,27 @@
 .disciplines p {
   margin-top: 20px;
 }
+
+.disciplines h3 {
+  text-align: left;
+}
+
 .lead, .bouldering, .speed {
   display: grid;
   grid-template-rows: 2fr 1fr;
   padding: 0 10px 0 10px;
 }
 .leadImg {
-  background: url('../images/lead.svg') no-repeat;
+  background: url('https://s3.eu-central-1.amazonaws.com/expbh/climbing/lead.svg') no-repeat;
 }
 .boulderingImg {
-  background: url('../images/bouldering.svg') no-repeat;
+  background: url('https://s3.eu-central-1.amazonaws.com/expbh/climbing/boulder.svg') no-repeat;
 }
 .speedImg {
-  background: url('../images/speed.svg') no-repeat;
+  background: url('https://s3.eu-central-1.amazonaws.com/expbh/climbing/speed.svg') no-repeat;
 }
 .leadImg, .boulderingImg, .speedImg {
+  min-height: 20rem;
   background-size: contain;
   background-position: center top;
 }
