@@ -1,0 +1,25 @@
+.disciplines {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.disciplines p {
+  margin-top: 20px;
+}
+.lead, .bouldering, .speed {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  padding: 0 10px 0 10px;
+}
+.leadImg {
+  background: url('../images/lead.svg') no-repeat;
+}
+.boulderingImg {
+  background: url('../images/bouldering.svg') no-repeat;
+}
+.speedImg {
+  background: url('../images/speed.svg') no-repeat;
+}
+.leadImg, .boulderingImg, .speedImg {
+  background-size: contain;
+  background-position: center top;
+}
