@@ -14,9 +14,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="How Sport Climbing Works" keywords={[`climbing`, `sports`, `sport climbing`, `olympic`]} />
     <Intro />
+    <HatefulSix />
     <Disciplines />
     <HowItWorks />
-    <HatefulSix />
   </Layout>
 )
 
