@@ -7,6 +7,7 @@ import Intro from "../components/intro"
 import Image from "../components/image"
 import HatefulSix from "../components/hatefulsix"
 import HowItWorks from "../components/howitworks"
+import Graphs from "../components/graphs"
 import SEO from "../components/seo"
 import Disciplines from "../components/disciplines"
 
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <HatefulSix />
     <Disciplines />
     <HowItWorks />
+    <Graphs />
   </Layout>
 )
 
