@@ -23,13 +23,17 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.credits h3 {
+  text-align: left;
+}
 .footerImg {
   width: 100vw;
   height: 100vh;
-  background: url('../images/footerImg.jpg') no-repeat;
+  background: url('https://s3.eu-central-1.amazonaws.com/expbh/climbing/footerImg.jpg') no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+  margin: 0 0 4rem 0;
   align-items: center;
 -webkit-mask-image:-webkit-gradient(linear, right top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
       mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
@@ -37,6 +41,6 @@ footer {
 .olympicsLogo {
   width: 20vw;
   height: 50vh;
-  background: url('../images/olympicsLogo.svg') no-repeat;
+  background: url('https://s3.eu-central-1.amazonaws.com/expbh/climbing/olympicsLogo.svg') no-repeat;
   background-size: contain;
 }

@@ -29,6 +29,9 @@ summary {
   display: block;
   background-color: hsl(216 66% 20%);
 }
+section {
+  margin: 8rem 0 0 0;
+}
 audio,
 canvas,
 progress,
