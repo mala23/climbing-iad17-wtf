@@ -1,0 +1,23 @@
+.hotshots {
+  max-width: 960px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hotshots__portrait {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+}
+
+
+h3 {
+  text-align: center;
+}
