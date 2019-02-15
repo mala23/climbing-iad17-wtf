@@ -339,8 +339,7 @@ ul {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  list-style-position: outside;
-  list-style-image: none;
+  list-style: none;
 }
 ol {
   margin-left: 1.45rem;
@@ -351,7 +350,6 @@ ol {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  list-style-position: outside;
   list-style-image: none;
 }
 dl {
