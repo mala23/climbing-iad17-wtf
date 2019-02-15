@@ -11,11 +11,14 @@ const Disciplines = ({ siteTitle }) => ( <section className="disciplines">
   <div className="bouldering">
     <div classNam="boulderingImg"></div>
       <p>
-        
+     The climbers attempt to top as many boulders as possible on a 4m high wall without rope and belaying. They have 4 minutes time for their attempt. It is not allowed to train on the routes before, although the athletes have limited time to see the boulders before. The boulder is topped when the top hold is grabbed with both hands for a minimum of 2 seconds.   
       </p>
   </div>
   <div className="speed">
     <div className="speedImg"></div>
+  <p>
+    Two athletes face each other in an attempt to climb the same route as fast as possible. The wall is 15m high and is angled at an 95°. The possible best time is 5-6 seconds by the men and 7-8 seconds by the women. A false start automatically leads to disqualification. The athletes are belayed while climbing. 
+  </p>
   </div>
 </section>
 )
