@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Intro from "../components/intro"
 import Image from "../components/image"
 import HatefulSix from "../components/hatefulsix"
+import HowItWorks from "../components/howitworks"
 import SEO from "../components/seo"
 import Disciplines from "../components/disciplines"
 
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <SEO title="How Sport Climbing Works" keywords={[`climbing`, `sports`, `sport climbing`, `olympic`]} />
     <Intro />
     <Disciplines />
+    <HowItWorks />
     <HatefulSix />
   </Layout>
 )

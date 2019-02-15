@@ -4,7 +4,7 @@ import "./hatefulsix.css"
 
 const HatefulSix = () => (
   <section className="hatefulsix">
-    <h2>Favorites</h2>
+    <h2>Favourites Shortlist</h2>
     <section className="hotshots">
     <figure className="hotshots__petra">
       <img className="hotshots__portrait" src="https://s3.eu-central-1.amazonaws.com/expbh/climbing/petra.png"/>
