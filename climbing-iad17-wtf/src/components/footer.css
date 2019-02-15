@@ -1,14 +1,12 @@
 footer {
   margin: 6rem 0 0 0;
 }
-
 .footer__hearticon {
   margin: 0 .5rem;
   cursor: pointer;
   transition: all 0.4s ease 0s;
   animation: pulsate .42s ease 0s infinite alternate;
 }
-
 .footer__hearticon:hover {
   fill: red;
 }
@@ -20,4 +18,25 @@ footer {
   100% {
     transform: scale(1.2);
   }
+}
+.credits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footerImg {
+  width: 100vw;
+  height: 100vh;
+  background: url('../images/footerImg.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+-webkit-mask-image:-webkit-gradient(linear, right top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.olympicsLogo {
+  width: 20vw;
+  height: 50vh;
+  background: url('../images/olympicsLogo.svg') no-repeat;
+  background-size: contain;
 }
