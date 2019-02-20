@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   background-image:
-    url('../images/header.png');
+    url('https://s3.eu-central-1.amazonaws.com/expbh/climbing/header.png');
   background-size: cover;
   background-position: center center;
   height: 80vh;
